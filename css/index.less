@@ -1,0 +1,1323 @@
+@import "set";
+
+/*首页*/
+.logo_content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(190,235,152);
+}
+.logo{
+  background: url("../img/logo_1.png") no-repeat;
+  background-size: contain;
+  width: 7.50rem;
+  height: 6.88rem;
+}
+.logo img{
+  width: 100%;
+}
+.activityRules{
+  background: url("../img/rules.png") no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: .2rem;
+  top: 0.2rem;
+  width: 1.5rem;
+  height: .58rem;
+}
+.content{
+  background: url("../img/garden.png") no-repeat;
+  background-size: contain;
+  width: 6.75rem;
+  height: 4.48rem;
+  margin: 0 auto;
+  margin-top: -32%;
+}
+
+.logo_fotter{
+  background: url("../img/logo_di.png") no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.5rem;
+  height: 5.32rem;
+}
+.logo_fotter img{
+  width: 3.86rem;
+  position: absolute;
+  left: 24.426%;
+  bottom: 1.5rem;
+}
+
+/*主页index*/
+.index{
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #dbf3d2;
+}
+.index_head{
+  background: url("../img/shouye_bg.png") no-repeat;
+  background-size: contain;
+  width: 7.50rem;
+  height: 9.29rem;
+}
+.gameplay{
+  position: absolute;
+  top: .2rem;
+  left: .2rem;
+  background: url("../img/gameplay.png") no-repeat;
+  background-size: contain;
+  width: 1.85rem;
+  height: .55rem;
+}
+
+.index_garden{
+  position: absolute;
+  top: 3.98rem;
+  left: .375rem;
+}
+.garden{
+  background: url("../img/garden1.png") no-repeat;
+  background-size: contain;
+  width: 6.75rem;
+  height: 2.44rem;
+  .flower{
+    position: absolute;
+    left: 2.9rem;
+    top: -0.8rem;
+    width: 0.83rem;
+    height: 1.62rem;
+    img:nth-child(1){
+      position: absolute;
+      left: 50%;
+      margin-left: -0.15rem;
+      bottom: 0;
+      width: .3rem;
+      height: .58rem;
+    }
+    img:nth-child(2){
+      position: absolute;
+      left: 50%;
+      margin-left: -0.3rem;
+      bottom: 0;
+      width: .6rem;
+      height: 1.15rem;
+    }
+    img:nth-child(3){
+      position: absolute;
+      left:0;
+      top:0;
+      width: 0.83rem;
+      height: 1.62rem;
+    }
+  }
+  #toolbar_top{
+    .centerDiv(103,113);
+    margin-left: 0.485rem;
+    margin-top: -1.565rem;
+  }
+
+  .hand{
+    position: absolute;
+    left: 4rem;
+    top: -0.6rem;
+    width: .75rem;
+    height: .58rem;
+    display: none;
+  }
+}
+.headPortrait{
+  position: absolute;
+  top: 1.6rem;
+  left: 1.52rem;
+
+}
+
+.photo{
+  background: url("../img/headPortrait_bg.png") no-repeat;
+  background-size: contain;
+  width: 4.46rem;
+  height: .71rem;
+}
+.photo img{
+  position: absolute;
+  left: .06rem;
+  top: .04rem;
+  width: .59rem;
+  height: .61rem;
+}
+.photo span{
+  position: absolute;
+  left: 1rem;
+  width: 3rem;
+  height: .71rem;
+  line-height: .71rem;
+  display: inline-block;
+  font-size: .32rem;
+  color: #058047;
+  font-weight: bold;
+}
+
+.grow{
+  font-size: .24rem;
+  font-weight: bold;
+  color: #058047;
+  text-align: center;
+}
+.grow span{
+  color: red;
+  padding-left: .1rem;
+}
+.toolbar{
+  position: absolute;
+  top: .3rem;
+}
+.toolbar_box{
+  position: absolute;
+  top: 2rem;
+  width: 1.03rem;
+  height: 1.13rem;
+}
+.sunshine{
+  background: url("../img/sunshine.png") no-repeat;
+  background-size: contain;
+  left: 1rem;
+}
+.conts{
+  position: absolute;
+  right: 0;
+  width: .3rem;
+  height: .3rem;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  line-height: .3rem;
+}
+.kettle{
+  background: url("../img/kettle.png") no-repeat;
+  background-size: contain;
+  left: 3rem;
+}
+.fertilizer{
+  background: url("../img/fertilizer1.png") no-repeat;
+  background-size: contain;
+  left: 5rem;
+}
+.optionbox{
+  position: absolute;
+  top: 8rem;
+}
+.options{
+  position: absolute;
+  left: 1rem;
+  background: url("../img/reward_bg.png") no-repeat;
+  background-size: contain;
+  width: 2.8rem;
+  height: .8rem;
+  border-radius: .4rem;
+  overflow: hidden;
+  display: inline-block;
+
+}
+.reward{
+  position: absolute;
+  top: .059rem;
+  left: .05rem;
+  background-color: #ffffff;
+  width: 2.7rem;
+  height: .7rem;
+  border-radius: .35rem;
+  text-align: center;
+  font-size: .32rem;
+  color: #00733d;
+  line-height: .7rem;
+  font-weight: bold;
+}
+.options2{
+  left: 4rem;
+  background: none;
+  background-color: #ad5228;
+}
+.obtain{
+  position: absolute;
+  top: .059rem;
+  left: .05rem;
+  background-color: #ffc78b;
+  width: 2.69rem;
+  height: .7rem;
+  border-radius: .5rem;
+  text-align: center;
+  font-size: .32rem;
+  color: #7c3824;
+  line-height: .7rem;
+  font-weight: bold;
+}
+.assistance_box{
+  position: absolute;
+  left: 0;
+  top: 9.29rem;
+  width: 100%;
+  min-height: 3rem;
+  max-height: 6rem;
+}
+.assistance{
+  background: url("../img/line.png") no-repeat;
+  background-size: contain;
+  width: 2.63rem;
+  height: .31rem;
+  position: absolute;
+  top: .2rem;
+  left: 2.7rem;
+}
+.sitg{
+  width: 100%;
+  height: .6rem;
+}
+.assistance_model{
+  position: relative;
+  margin: .15rem auto;
+  width: 6.5rem;
+  height: 1rem;
+}
+.tips{
+  background-color: white;
+  width: 6.5rem;
+  height: 1rem;
+  border-radius: .5rem;
+
+}
+.round{
+  background-color: #dedede;
+  width: .9rem;
+  height: .9rem;
+  border-radius: 50%;
+  position: absolute;
+  left: .05rem;
+  top: .05rem;
+}
+.summary{
+  position: absolute;
+  left: 1.2rem;
+  width: 5.14rem;
+  height: 1rem;
+  color: #000;
+}
+.writing{
+  width: 3.9rem;
+  height: 1rem;
+
+}
+.writing h3{
+  font-size: .32rem;
+  height: .6rem;
+  line-height: .6rem;
+}
+.writing h4{
+  font-size: .24rem;
+  color: #999999;
+  font-weight: normal;
+  height: .3rem;
+  line-height: .3rem;
+}
+.date{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.27rem;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: .32rem;
+}
+/*玩法锦囊*/
+.gameplay_box{
+  width: 7.5rem;
+  height: 25.99rem;
+  position: relative;
+  background-color: rgb(190,235,152);
+
+}
+.gameplay_head{
+  background: url("../img/gameplay_bg1.png") no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 7.5rem;
+  height: 8.67rem;
+}
+.gameplay_cont{
+  background: url("../img/gameplay1.png") no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 1.025rem;
+  top: .74rem;
+  width: 5.45rem;
+  height: 22.57rem;
+}
+.gameplay2{
+  background: url(../img/gameplay2.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 1.399rem;
+  top: 2.7rem;
+  width: 2.72rem;
+  height: 3.72rem;
+}
+.gameplay_footer{
+  background: url("../img/gameplay_footer.png") no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 7.5rem;
+  height: 4.2rem;
+
+}
+.gameplay_footer img{
+  position: absolute;
+  left: 2.35rem;
+  bottom: 1.26rem;
+  width: 2.8rem;
+  height: .8rem;
+}
+/*活动规则*/
+.activityRules_box{
+  background-color: rgb(190,235,152);
+  .page;
+}
+.activit_head{
+  background: url("../img/gameplay_bg1.png") no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7.5rem;
+  height: 8.67rem;
+}
+.activit_cont{
+  .centerImg("../img/activityRules.png",548,808);
+  margin-top: -6.04rem;
+  z-index: 2;
+
+}
+.activit_cont_box{
+  position: absolute;
+  left: .59rem;
+  top: 1.62rem;
+  width: 4.54rem;
+  height: 6rem;
+  color: #00783f;
+  font-size: .24rem;
+
+}
+.confirm{
+  background: url("../img/confirm.png") no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 10.24rem;
+  left: 2.35rem;
+  width: 2.8rem;
+  height:.8rem;
+  z-index: 2;
+}
+.activit_footer{
+  background: url("../img/logo_di.png") no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.5rem;
+  height:5.32rem;
+  z-index: 1;
+}
+/*花园奖励*/
+.gardenAward_box{
+ .page;
+  background-color: #b7ea9d;
+  .gardenAward_head{
+    background: url("../img/garden_head.png") no-repeat;
+    height: 6.88rem;
+    .widths;
+
+ }
+  .logo{
+    .centerImg("../img/garden_logo.png",320,131);
+    margin-top: -5.655rem;
+  }
+  .box{
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    width: 7.5rem;
+    height: 4.46rem;
+    .card_box{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 7.5rem;
+      height: 3.54rem;
+      .card{
+        .garden_bg;
+        left: .74rem;
+        p:nth-child(1) {
+         top: .4rem;
+        }
+        p:nth-child(3) {
+          bottom: .4rem;
+        }
+      }
+      .card2{
+        .garden_bg;
+        .centerImg("../img/garden_bg.png",185,354);
+        p:nth-child(1) {
+          top: .4rem;
+        }
+        p:nth-child(3) {
+          bottom: .4rem;
+
+        }
+      }
+      .card3{
+        .garden_bg;
+        right: .74rem;
+        p:nth-child(1) {
+          top: .4rem;
+        }
+        p:nth-child(3) {
+          bottom: .4rem;
+        }
+      }
+    }
+    .buttonbar{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 7.5rem;
+      height: .65rem;
+      .card{
+        background: url("../img/harvest.png") no-repeat;
+        //background: url("../img/change.png") no-repeat;
+        .buttonbar_style;
+        left: .74rem;
+      }
+      .card2{
+        .buttonbar_style;
+        .centerImg("../img/harvest.png",186,65);
+      }
+      .card3{
+        background: url("../img/harvest.png") no-repeat;
+        .buttonbar_style;
+        right: .74rem;
+      }
+    }
+  }
+  .prizelist{
+    .centerImg("../img/bg_flowers.png",556,198);
+    margin-top: 1.01rem;
+    z-index: 2;
+    div{
+      .centerImg("../img/introduction.png",436,159);
+    }
+    //ul{
+    //  .clear;
+    //  width: 4.36rem;
+    //  height:1.98rem;
+    //  margin-left: .56rem;
+    //  font-size: 0;
+    //  li{
+    //    width: 1.3rem;
+    //    height: .99rem;
+    //    float: left;
+    //    div{
+    //      margin-top: .2rem;
+    //      div{
+    //        display: inline-block;
+    //        margin-top: 0;
+    //      }
+    //      div:nth-child(1){
+    //        background: url("../img/garden_bgs.png") no-repeat;
+    //        background-size: contain;
+    //        width: .59rem;
+    //        height: .59rem;
+    //        img:nth-child(1){
+    //          width: .55rem;
+    //          height: .37rem;
+    //          margin-left: .02rem;
+    //          margin-top: .11rem;
+    //          background: transparent;
+    //        }
+    //        img:nth-child(2){
+    //
+    //        }
+    //        img:nth-child(3){
+    //
+    //        }
+    //        img:nth-child(4){
+    //
+    //        }
+    //        img:nth-child(5){
+    //
+    //        }
+    //        img:nth-child(6){
+    //
+    //        }
+    //
+    //      }
+    //      div:nth-child(2){
+    //        width: .64rem;
+    //        height: .4rem;
+    //        margin-left: .05rem;
+    //        p{
+    //          color: #007742;
+    //        }
+    //        p:nth-child(1){
+    //          font-size: .1665rem;
+    //        }
+    //        p:nth-child(2){
+    //          font-size: .1942rem;
+    //        }
+    //      }
+    //
+    //    }
+    //
+    //  }
+    //}
+  }
+  .return{
+    .centerImg("../img/return.png",280,80);
+    margin-top: 4.5rem;
+    z-index: 2;
+  }
+  .footer{
+  background: url("../img/garden_footer.png") no-repeat;
+  height: 5.32rem;
+  .footers;
+  }
+}
+
+//第一个弹窗
+.first{
+  .page;
+  background-color: rgba(0,0,0,.8);
+  div:nth-child(1){
+    .centerImg("../img/first.png",545,744);
+  }
+  div:nth-child(2){
+    .centerImg("../img/confirm.png",280,80);
+    margin-top: 4.3rem;
+  }
+}
+//收获弹窗
+.harvest{
+  .page;
+  background-color: rgba(0,0,0,.8);
+  div:nth-child(1){
+    .centerImg("../img/harvest1.png",545,607);
+    margin-top: -4.035rem;
+  }
+  div:nth-child(2){
+    .centerDiv(545,80);
+    div{
+      display: inline-block;
+      position: absolute;
+      width: 2.3rem;
+      height: .8rem;
+    }
+    div:nth-child(1){
+      background: url("../img/exchange.png") no-repeat;
+      background-size: contain;
+      top: 7rem;
+    }
+    div:nth-child(2){
+      background: url("../img/anotherSpecies.png") no-repeat;
+      background-size: contain;
+      left: 5.9rem;
+      top: 3.36rem;
+
+    }
+  }
+}
+//公用
+.none{
+  display: none;
+}
+
+//操作后提示
+.tishi{
+  .centerDiv(410,50);
+  margin-top: -1.5rem;
+  border-radius: .25rem;
+  line-height: .5rem;
+  text-align: center;
+  background-color: rgba(255,255,255,.45);
+  color: #007742;
+  font-size: .24rem;
+}
+//帮助好友
+.helpFriends{
+  .page;
+  background-color: rgba(0,0,0,.8);
+  div:nth-child(1){
+    .centerImg("../img/helpfriend_bg.png",545,487);
+    margin-top: -4.435rem;
+    p{
+      color: #00783f;
+      font-size: .24rem;
+      text-align: center;
+      line-height: .4rem;
+    }
+    p:nth-child(1){
+      margin-top: .9rem;
+    }
+    div{
+      .centerImg("../img/help_bg.png",156,156);
+      margin-top: -.1rem;
+
+      img{
+        .centerImg("../img/help_bg.png",86,103);
+      }
+    }
+  }
+  div:nth-child(2){
+    .centerImg("../img/toGrow.png",280,80);
+    margin-top: 1.6rem;
+  }
+}
+//中大奖
+.jackpot{
+  .page;
+  background-color: rgba(0,0,0,.8);
+  div:nth-child(1){
+    .centerImg("../img/jackpot.png",545,363);
+    margin-top: -4.815rem;
+    p{
+      font-size: .24rem;
+      color: #00783f;
+      text-align: center;
+      line-height: .5rem;
+    }
+    p:nth-child(1){
+      margin-top: 1rem;
+    }
+    p:nth-child(2){
+      color: #a55320;
+    }
+    p:nth-child(4) span{
+      color: #a55320;
+    }
+  }
+  div:nth-child(2){
+    .centerImg("../img/confirm.png",280,80);
+    //margin-top: 1.6rem;
+  }
+}
+//分享
+.share{
+  .page;
+  background-color: rgba(0,0,0,.8);
+  p{
+    text-align: center;
+    font-size: .32rem;
+    color: #d6f9b5;
+    margin-top: 1.19rem;
+  }
+  div{
+    .centerImg("../img/share.png",110,100);
+    margin-left: 2.1rem;
+    margin-top: -6.34rem;
+  }
+}
+//二维码
+.qrcode{
+  .page;
+  background-color: #beeb98;
+  div:nth-child(1){
+    background: url("../img/garden_head.png") no-repeat;
+    background-size: contain;
+    .absoluteDiv(750,688);
+    top: 0;
+    left: 0;
+
+  }
+  div:nth-child(2){
+    background: url("../img/logo_di.png") no-repeat;
+    background-size: contain;
+    .absoluteDiv(750,532);
+    bottom: 0;
+    left: 0;
+
+  }
+  div:nth-child(3){
+    .centerImg("../img/code_bg.png",545,858);
+
+    div{
+      .centerImg("../img/code.png",289,289);
+      margin-top: -0.445rem;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+//电子券
+.ticket{
+  .page;
+  background-color: rgba(0,0,0,.8);
+  div:nth-child(1){
+    .centerImg("../img/ticket_bg.png",545,553);
+    margin-top: -4.765rem;
+    p{
+      text-align: center;
+      font-size: .24rem;
+      color: #00783f;
+      font-weight: bold;
+      line-height: .5rem;
+    }
+    p:nth-child(1){
+      margin-top: 1rem;
+    }
+    p:nth-child(3){
+      color: #a55320;
+    }
+    p:nth-child(7){
+      font-size: 0.18rem;
+      margin-top: 0.9rem;
+      font-weight: normal;
+    }
+    div{
+      .centerImg("../img/ticket_bt2.png",161,52);
+      margin-top: 1rem;
+    }
+
+
+  }
+  div:nth-child(2){
+      .centerImg("../img/ticket_bt1.png",280,80);
+      margin-top: 1.6rem;
+  }
+}
+//绑定手机号码
+.binding{
+  .page;
+  background-color: #beeb98;
+  div:nth-child(1){
+    background: url("../img/garden_head.png") no-repeat;
+    background-size: contain;
+    .absoluteDiv(750,688);
+    top: 0;
+    left: 0;
+
+  }
+  div:nth-child(2){
+    background: url("../img/logo_di.png") no-repeat;
+    background-size: contain;
+    .absoluteDiv(750,532);
+    bottom: 0;
+    left: 0;
+
+  }
+  //11111
+  div:nth-child(3){
+    .centerImg("../img/bdsjh.png",545,547);
+    margin-top: -4.735rem;
+    p{
+      text-align: center;
+      font-size: .24rem;
+      color: #00783f;
+      font-weight: bold;
+      line-height: .5rem;
+    }
+    p:nth-child(1){
+      margin-top: 1.5rem;
+    }
+    ul{
+      list-style: none;
+      li:nth-child(1){
+        position: absolute;
+        width: 4.15rem;
+        height: .5rem;
+        left: 0.64rem;
+        top: 3rem;
+        span{
+          display: inline-block;
+          height: .5rem;
+          line-height: .5rem;
+          font-size: .24rem;
+          color: #007742;
+        }
+        span:nth-child(1){
+          width: 1.01rem;
+          height: .5rem;
+        }
+        span:nth-child(2){
+          width: 2.9rem;
+          height: .5rem;
+          margin-left: .1rem;
+          input{
+            width: 2.9rem;
+            height: .5rem;
+            border: none;
+            background-color: rgb(183,234,157);
+            outline:none;
+            resize:none;
+            border-radius: .25rem;
+            text-align: center;
+          }
+        }
+      }
+      li:nth-child(2){
+          margin-top: .99rem;
+        position: absolute;
+        width: 4.15rem;
+        height: .5rem;
+        left: 0.64rem;
+        top: 3rem;
+        span{
+          display: inline-block;
+          height: .5rem;
+          line-height: .5rem;
+          font-size: .24rem;
+          color: #007742;
+        }
+        span:nth-child(1){
+          width: 1.01rem;
+          height: .5rem;
+        }
+        span:nth-child(2){
+          width: 2.9rem;
+          height: .5rem;
+          margin-left: .1rem;
+          input{
+            width: 2.1rem;
+            height: .5rem;
+            border: none;
+            background-color: rgb(183,234,157);
+            outline:none;
+            resize:none;
+            border-radius: .25rem;
+            text-align: left;
+            padding-left: .2rem;
+          }
+          img{
+            position: absolute;
+            width: 1.61rem;
+            height: .52rem;
+            margin-left: -1.01rem;
+          }
+        }
+      }
+    }
+  }
+  div:nth-child(4){
+    .centerImg("../img/submission.png",280,80);
+    margin-top: 1.6rem;
+  }
+}
+//即将兑换电子券
+.tickets{
+  .page;
+  background-color: rgba(0,0,0,.8);
+  div:nth-child(1){
+    .centerImg("../img/ticket_bg1.png",545,487);
+    margin-top: -4.6rem;
+    p{
+      font-size: .24rem;
+      color: #00783f;
+      text-align: center;
+      z-index: 2;
+    }
+    p:nth-child(1){
+      margin-top: 1rem;
+    }
+    p:nth-child(3){
+      margin-top: 2.4rem;
+    }
+    div{
+      .centerImg("../img/help_bg.png",156,156);
+      z-index: 1;
+      text-align: center;
+      img{
+        width: 1.25rem;
+        height: 1.35rem;
+        margin-top: .21rem;
+      }
+      img:nth-child(2){
+        width: 1.37rem;
+        height: 1.44rem;
+        margin-top: .12rem;
+      }
+    }
+  }
+  div:nth-child(2){
+    position: absolute;
+    .centerDiv(545,80);
+    margin-top: 0.6rem;
+    background: transparent;
+    span{
+      display: inline-block;
+    }
+    span:nth-child(1){
+      background: url("../img/cancel.png") no-repeat;
+      background-size: contain;
+      width: 2.3rem;
+      height: .8rem;
+    }
+    span:nth-child(2){
+      background: url("../img/confirm1.png") no-repeat;
+      background-size: contain;
+      width: 2.3rem;
+      height: .8rem;
+      margin-left: .76rem;
+    }
+  }
+}
+//弹窗  没开花点击话弹出
+.toolTipBox{
+  .page;
+  background-color: rgba(0,0,0,.8);
+  div:nth-child(1){
+    //.centerImg("../img/toolTip.png",545,340);
+    .centerDiv(545,340);
+    margin-top: -4.1rem;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+
+  }
+  div:nth-child(2){
+    .centerImg("../img/Sending-.png",280,80);
+    margin-top: -0.1rem;
+  }
+}
+//好友入口
+.friendEntrance{
+  .page;
+  background-color: rgb(190,235,152);
+  div:nth-child(1){
+    background: url(../img/logo_1.png) no-repeat;
+    background-size: contain;
+    width: 7.5rem;
+    height: 6.88rem;
+  }
+  div:nth-child(2){
+    background: url(../img/rules.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0.2rem;
+    top: 0.2rem;
+    width: 1.5rem;
+    height: 0.58rem;
+  }
+  div:nth-child(3){
+    background: url(../img/logo_di.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 7.5rem;
+    height: 5.32rem;
+  }
+  div:nth-child(4){
+    .centerImg("../img/friend_bg.png",545,466);
+    p{
+      font-size: .24rem;
+      color: #007742;
+      text-align: center;
+      line-height: .5rem;
+    }
+    p:nth-child(1){
+      margin-top: 1rem;
+    }
+  }
+  div:nth-child(5){
+      .centerImg("../img/assistance.png",376,113);
+      margin-top: 3.435rem;
+  }
+}
+//弹窗 阶段
+.stage{
+  .page;
+  background-color: rgba(0,0,0,.8);
+  div:nth-child(1){
+    .centerImg("../img/stage.png",545,340);
+    margin-top: -4.1rem;
+    p{
+      font-size: .24rem;
+      color: #007742;
+      text-align: center;
+      line-height: .5rem;
+      font-weight: bold;
+    }
+    p:nth-child(1){
+      margin-top: 1rem;
+    }
+  }
+  div:nth-child(2){
+    .centerImg("../img/confirm.png",280,80);
+    margin-top: -.1rem;
+  }
+
+}
+//弹窗  兑换流量
+.exchange{
+  .page;
+  background-color: rgba(0,0,0,.8);
+  div:nth-child(1){
+    .centerImg("../img/exchange_bg.png",545,437);
+    margin-top: -5rem;
+    p{
+      font-size: .24rem;
+      color: #00783f;
+      line-height: .5rem;
+      text-align: center;
+    }
+    p:nth-child(1){
+      margin-top: 1rem;
+      span{
+        color: #a55320;
+      }
+    }
+    p:nth-child(2){
+      margin-top: .2rem;
+    }
+    p:nth-child(5){
+      margin-top: .2rem;
+    }
+  }
+  div:nth-child(2){
+    position: absolute;
+    .centerDiv(545,80);
+    margin-top: 0.6rem;
+    background: transparent;
+    span{
+      display: inline-block;
+    }
+    span:nth-child(1){
+      background: url("../img/cancel.png") no-repeat;
+      background-size: contain;
+      width: 2.3rem;
+      height: .8rem;
+
+    }
+    span:nth-child(2){
+      background: url("../img/confirm1.png") no-repeat;
+      background-size: contain;
+      width: 2.3rem;
+      height: .8rem;
+      margin-left: .77rem;
+    }
+  }
+}
+//本网中流量
+.thisnetwork{
+  .page;
+  background-color: rgba(0,0,0,.8);
+  div:nth-child(1){
+    .centerImg("../img/bwll.png",545,573);
+    margin-top: -5rem;
+    p{
+      font-size: .24rem;
+      color: #00783f;
+      line-height: .5rem;
+      text-align: center;
+    }
+    p:nth-child(1){
+      margin-top: 1rem;
+    }
+    p:nth-child(2){
+        color: #a55320;
+    }
+    p:nth-child(3){
+      span{
+        color: #a55320;
+      }
+    }
+    img{
+      .centerDiv(500,140);
+      margin-top: 1.26rem;
+    }
+  }
+  div:nth-child(2){
+    .centerImg("../img/confirm.png",280,80);
+    margin-top: 1.6rem;
+  }
+}
+//异网中流量
+.differentnetworks{
+  .page;
+  background-color: rgba(0,0,0,.8);
+  p{
+    font-size: .24rem;
+    color: #00783f;
+    line-height: .5rem;
+    text-align: center;
+  }
+  //是否转增
+  div:nth-child(1){
+    div:nth-child(1){
+      .centerImg("../img/different_bg1.png",545,403);
+      margin-top: -5.015rem;
+      p:nth-child(1){
+        margin-top: 1rem;
+      }
+      p:nth-child(2){
+        color: #a55320;
+      }
+      p:nth-child(3){
+        span{
+          color: #a55320;
+        }
+       }
+    }
+    div:nth-child(2){
+      position: absolute;
+      .centerDiv(545,80);
+      background: transparent;
+      span{
+        display: inline-block;
+      }
+      span:nth-child(1){
+        background: url("../img/cancel.png") no-repeat;
+        background-size: contain;
+        width: 2.3rem;
+        height: .8rem;
+
+      }
+      span:nth-child(2){
+        background: url("../img/transferring.png") no-repeat;
+        background-size: contain;
+        width: 2.3rem;
+        height: .8rem;
+        margin-left: .77rem;
+      }
+    }
+  }
+  //输入手机号码
+  div:nth-child(2){
+    div:nth-child(1){
+      .centerImg("../img/different_bg1.png",545,403);
+      margin-top: -5.015rem;
+      p{
+        line-height: .7rem;
+      }
+      p:nth-child(1){
+        margin-top: 1.1rem;
+      }
+      p:nth-child(2){
+        input{
+          width: 2.6rem;
+          height: .5rem;
+          border: none;
+          outline:none;
+          resize:none;
+          border-radius: .25rem;
+          text-align: center;
+          background-color: rgb(190,235,152);
+        }
+      }
+    }
+    div:nth-child(2){
+      .centerImg("../img/confirm.png",280,80);
+    }
+  }
+  //确认信息
+  div:nth-child(3){
+    div:nth-child(1){
+      .centerImg("../img/different_bg3.png",545,513);
+      margin-top: -5.015rem;
+      p:nth-child(1){
+        margin-top: .9rem;
+      }
+      p:nth-child(1){}
+      p:nth-child(3){
+        span{
+          color: #a55320;
+        }
+      }
+      p:nth-child(5){
+        color: #a55320;
+      }
+      p:nth-child(7){
+        margin-top: .2rem;
+      }
+    }
+    div:nth-child(2){
+      position: absolute;
+      .centerDiv(545,80);
+      margin-top: 0.6rem;
+      background: transparent;
+      span{
+        display: inline-block;
+      }
+      span:nth-child(1){
+        background: url("../img/modify.png") no-repeat;
+        background-size: contain;
+        width: 2.3rem;
+        height: .8rem;
+
+      }
+      span:nth-child(2){
+        background: url("../img/confirm1.png") no-repeat;
+        background-size: contain;
+        width: 2.3rem;
+        height: .8rem;
+        margin-left: .77rem;
+      }
+    }
+  }
+  //成功
+  div:nth-child(4){
+    div:nth-child(1){
+      .centerImg("../img/different_bg4.png",545,673);
+      margin-top: -5.015rem;
+      p:nth-child(1){
+        margin-top: .8rem;
+      }
+      p:nth-child(2){
+        span{
+          color: #a55320;
+        }
+      }
+      p:nth-child(4){
+        color: #a55320;
+      }
+      p:nth-child(5){
+        margin-top: .2rem;
+      }
+      img{
+        .centerDiv(500,140);
+        margin-top: 1.73rem;
+      }
+    }
+    div:nth-child(2){
+      .centerImg("../img/confirm.png",280,80);
+      margin-top: 2.6rem;
+    }
+  }
+}
+#testing{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 50%;
+  z-index: 999;
+  p{
+    color: red;
+    font-size: .3rem;
+    line-height: .6rem;
+    text-align: left;
+    font-weight: bolder;
+    width: 100%;
+
+  }
+}
